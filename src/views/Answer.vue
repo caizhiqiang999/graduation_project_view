@@ -92,7 +92,7 @@ export default {
       url: 'http://localhost:8000/question/answer?offset=0&size=100',
       headers: {'authorization': window.sessionStorage.token}
     }).then(res => {
-      console.log(res)
+      console.log(res.data)
       this.data = res.data
       for(let i = 0; i < this.data.length; i++) {
         const str = this.data[i].createAt.replace('T', ' ')

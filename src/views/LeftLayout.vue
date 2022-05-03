@@ -8,7 +8,7 @@
       <el-button type="primary" class="login" @click="showLogin">{{login}}</el-button>
     </div>
     <div class="bottom">
-      <router-link class="link-item" to='/new' tag="div">最新创作</router-link>
+      <router-link class="link-item" to='/new' tag="div">最新创造</router-link>
       <router-link class="link-item" to='/mycreation' tag="div">我要创作</router-link>
       <router-link class="link-item" to='/record' tag="div">创作记录</router-link>
       <router-link class="link-item" to='/question' tag="div">我要提问</router-link>
